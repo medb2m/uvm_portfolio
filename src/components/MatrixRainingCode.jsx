@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from 'react'
+import {useEffect, useRef} from 'react'
 
 const MatrixRainingCode = () => {
     const canvasRef = useRef(null)
@@ -9,7 +9,7 @@ const MatrixRainingCode = () => {
         let width = (canvas.width = window.innerWidth)
         let height = (canvas.height = window.innerHeight)
         let columns = Math.floor(width/20)
-        const characters = "abcdefghijklmnopqrstuvwxyz123456789"
+        const characters = "ben10mouritaniperpill361;><|?.GOD*++/@"
         const charArray = characters.split("")
         let drops = [];
 
@@ -25,14 +25,12 @@ const MatrixRainingCode = () => {
             ctx.fillStyle = "rgba(0, 0, 0, 0.04)"
             ctx.fillRect( 0, 0, width, height)
 
-            ctx.fillStyle = "#0f0"
-
             ctx.font = "15px monospace"
 
             for (let i = 0 ; i < drops.length; i++){
                 const text = charArray[Math.floor(Math.random() * charArray.length)]
                 ctx.fillText(text, i*20, drops[i]*20)
-
+                ctx.fillStyle = i % 2 === 0 ? "#A020F0" : "#00FF00";
                 if (drops[i] * 20 > height && Math.random() > 0.975) {
                     drops[i] = 0
                 }
