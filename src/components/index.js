@@ -5,7 +5,7 @@ import Pricing from "./Pricing";
 import Hero from "./Hero";
 import Footer from "./Footer";
 import MatrixRainingCode from "./MatrixRainingCode";
-
+import HireMeBtn from "./HireMeBtn";
 export {
     Navbar,
     Features,
@@ -13,5 +13,6 @@ export {
     Pricing,
     Hero,
     Footer,
-    MatrixRainingCode
+    MatrixRainingCode,
+    HireMeBtn
 }
