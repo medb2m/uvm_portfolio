@@ -1,11 +1,20 @@
+import { Features, Footer, Hero, MatrixRainingCode, Navbar, Pricing, Testimonials } from "./components"
 
 
 function App() {
 
   return (
-    <>
-    <h1 className="text-red-500 text-[50px]">Hello les bros</h1>
-    </>
+    <div className="min-h-screen overflow-hidden">
+      <MatrixRainingCode className="absolute inset-0" />
+      <div className="flex flex-col">
+      <Navbar/>
+      <Hero/>
+      <Features/>
+      <Testimonials/>
+      <Pricing/>
+      <Footer/>
+      </div>
+    </div>
   )
 }
 
