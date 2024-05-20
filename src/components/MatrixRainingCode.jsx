@@ -9,7 +9,7 @@ const MatrixRainingCode = () => {
         let width = (canvas.width = window.innerWidth)
         let height = (canvas.height = window.innerHeight)
         let columns = Math.floor(width/20)
-        const characters = "ben10mouritaniperpill361;><|?.GOD*++/@"
+        const characters = "ben10mouritaniperpill361;><|?.GOD*++/@010110"
         const charArray = characters.split("")
         let drops = [];
 
