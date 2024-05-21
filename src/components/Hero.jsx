@@ -1,5 +1,4 @@
 import {motion} from 'framer-motion'
-import HireMeBtn from './HireMeBtn'
 
 const Hero = () => {
   return (
@@ -21,7 +20,14 @@ const Hero = () => {
             >
                 Experience The Power Of The Matrix
             </motion.p>
-            <HireMeBtn text='Hire Me' link='features' />
+            <motion.p
+                initial={{opacity : 0,y : -20}}
+                animate={{opacity : 1,y : 0}}
+                transition={{duration : 0.8, delay : 0.4}}
+                className='text-lg md:text-xl lg:text-1xl text-white mb-10 text-center'
+            >
+                This website is created with React
+            </motion.p>
       </div>
     </div>
   )
