@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 const AboutMe = () => {
   return (
@@ -21,13 +21,16 @@ const AboutMe = () => {
         </p>
         <div className='flex space-x-4'>
           <a href='https://github.com/medb2m' target='_blank' rel='noopener noreferrer'>
-            <FaGithub size={30} className='text-gray-700 hover:text-black' />
+            <FaGithub size={40} className='text-gray-700 hover:text-black' />
           </a>
           <a href='https://linkedin.com/in/medb2mm' target='_blank' rel='noopener noreferrer'>
-            <FaLinkedin size={30} className='text-gray-700 hover:text-blue-600' />
+            <FaLinkedin size={40} className='text-gray-700 hover:text-blue-600' />
           </a>
           <a href='https://twitter.com/medb2mm' target='_blank' rel='noopener noreferrer'>
-            <FaTwitter size={30} className='text-gray-700 hover:text-blue-400' />
+            <FaTwitter size={40} className='text-gray-700 hover:text-blue-400' />
+          </a>
+          <a href='https://www.youtube.com/channel/UCKi1RZHUnF8sQxQKP9z9_wg' target='_blank' rel='noopener noreferrer'>
+            <FaYoutube size={40} className='text-gray-700 hover:text-red-600' />
           </a>
         </div>
       </motion.div>
