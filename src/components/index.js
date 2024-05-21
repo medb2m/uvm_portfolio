@@ -1,18 +1,21 @@
 import Navbar from "./Navbar";
-import Features from "./Features";
-import Testimonials from "./Testimonials";
-import Pricing from "./Pricing";
+import AboutMe from "./AboutMe";
+import Projects from "./Projects";
+import Contact from "./Contact";
 import Hero from "./Hero";
 import Footer from "./Footer";
+import Skills from "./Skills";
 import MatrixRainingCode from "./MatrixRainingCode";
-import HireMeBtn from "./HireMeBtn";
+import AnimCursor from "./AnimCursor";
+
 export {
     Navbar,
-    Features,
-    Testimonials,
-    Pricing,
+    AboutMe,
+    Projects,
+    Contact,
     Hero,
     Footer,
     MatrixRainingCode,
-    HireMeBtn
-}
+    Skills,
+    AnimCursor
+};
