@@ -1,4 +1,4 @@
-import { AboutMe, AnimCursor, Contact, Footer, Hero, MatrixRainingCode, Navbar, Projects, Skills } from "./components"
+import { AboutMe, AnimCursor, Contact, Hero, MatrixRainingCode, Navbar, Projects, Skills } from "./components"
 
 
 function App() {
@@ -14,7 +14,6 @@ function App() {
       <Skills/>
       <Projects/>
       <Contact/>
-      <Footer/>
       </div>
     </div>
   )
