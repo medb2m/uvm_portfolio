@@ -1,6 +1,9 @@
+@import url('./assets/fonts/font.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -17,4 +20,30 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #450e67;
+}
+
+
+.card {
+  background-color: #091c17;
+  color: white;
+}
+
+h1{
+  font-family: 'MR ROBOT', sans-serif;
+  color: #A020F0;
+}
+
+h2{
+  font-family: 'MR ROBOT', sans-serif;
+  color: #A020F0;
+}
+.card p,
+.card h3,
+.card label {
+  font-family: 'wcp';
+  color: #00e817;
+}
+.card input,
+.card textarea {
+  color : #A020F0;
 }

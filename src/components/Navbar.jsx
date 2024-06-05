@@ -18,8 +18,8 @@ const Navbar = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0 }}
         className='flex items-center'
-      >
-        <h1 className='text-[#A020F0] cursor-pointer hover:text-white text-xl font-bold ml-6'>
+      > 
+        <h1 className='text-[#A020F0] cursor-pointer hover:text-white text-xl ml-6'>
           Ulta-Violet Matrix
         </h1>
       </motion.div>
@@ -43,7 +43,7 @@ const Navbar = () => {
           initial={{ y: 20 }}
           animate={{ y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className='text-gray-300 hover:text-white mx-4 cursor-pointer'
+          className='text-gray-300 hover:text-[#A020F0] mx-4 cursor-pointer'
         >
           <Link to='aboutme' smooth={true} duration={500} offset={-70}>
             About Me
@@ -53,7 +53,7 @@ const Navbar = () => {
           initial={{ y: 20 }}
           animate={{ y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className='text-gray-300 hover:text-white mx-4 cursor-pointer'
+          className='text-gray-300 hover:text-[#A020F0] mx-4 cursor-pointer'
         >
           <Link to='skills' smooth={true} duration={500} offset={-70}>
             Skills
@@ -63,7 +63,7 @@ const Navbar = () => {
           initial={{ y: 20 }}
           animate={{ y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className='text-gray-300 hover:text-white mx-4 cursor-pointer'
+          className='text-gray-300 hover:text-[#A020F0] mx-4 cursor-pointer'
         >
           <Link to='projects' smooth={true} duration={500} offset={-70}>
             Projects
@@ -73,7 +73,7 @@ const Navbar = () => {
           initial={{ y: 20 }}
           animate={{ y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className='text-gray-300 hover:text-white mx-4 cursor-pointer'
+          className='text-gray-300 hover:text-[#A020F0] mx-4 cursor-pointer'
         >
           <Link to='contact' smooth={true} duration={500} offset={-70}>
             Contact

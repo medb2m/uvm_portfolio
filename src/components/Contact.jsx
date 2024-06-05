@@ -33,13 +33,13 @@ const Contact = () => {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className='max-w-lg w-full bg-white shadow-lg rounded-lg p-8'
+        className='max-w-lg w-full bg-white shadow-lg rounded-lg p-8 card'
       >
-        <h2 className='text-3xl font-bold mb-6 text-center text-[#A020F0]'>Contact Me</h2>
-        <p className="mt-4 text-gray-600 text-center">Please feel free to reach out to me for any job opportunity or freelance work.</p>
+        <h2 className='text-3xl mb-6 text-center text-[#A020F0]'>Contact Me</h2>
+        <p className="mt-4 text-gray-600 text-center">Please feel free to reach out to me for a job opportunity or a freelance work.</p>
         <form className='space-y-4' ref={form} onSubmit={sendEmail}>
           <div>
-            <label htmlFor='name' className='block text-gray-800 font-semibold mb-1'>Your Name</label>
+            <label htmlFor='name' className='block text-800 font-semibold mb-1'>Your Name</label>
             <input
               id='name'
               name='name'
@@ -49,7 +49,7 @@ const Contact = () => {
             />
           </div>
           <div>
-            <label htmlFor='company' className='block text-gray-800 font-semibold mb-1'>Your Company</label>
+            <label htmlFor='company' className='block text-800 font-semibold mb-1'>Your Company</label>
             <input
               id='company_name'
               name='company_name'
@@ -59,7 +59,7 @@ const Contact = () => {
             />
           </div>
           <div className="flex flex-col">
-            <label htmlFor="company-type" className="block text-gray-800 font-semibold mb-1">Type of work</label>
+            <label htmlFor="company-type" className="block text-800 font-semibold mb-1">Type of work</label>
             <div className="flex items-start space-x-4">
               <div>
                 <input type="radio" id="job-offer" name="company-type" value="job-offer" />
@@ -72,7 +72,7 @@ const Contact = () => {
             </div>
           </div>
           <div>
-            <label htmlFor='email' className='block text-gray-800 font-semibold mb-1'>Your Email</label>
+            <label htmlFor='email' className='block text-800 font-semibold mb-1'>Your Email</label>
             <input
               id='email'
               name='email'
@@ -82,7 +82,7 @@ const Contact = () => {
             />
           </div>
           <div>
-            <label htmlFor='message' className='block text-gray-800 font-semibold mb-1'>Message</label>
+            <label htmlFor='message' className='block text-800 font-semibold mb-1'>Message</label>
             <textarea
               id='message'
               name='message'
